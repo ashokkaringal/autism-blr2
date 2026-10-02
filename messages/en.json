@@ -1,0 +1,367 @@
+{
+  "meta": {
+    "siteName": "[School Name]",
+    "defaultTitle": "[School Name] | Autism School in Bangalore",
+    "defaultDescription": "A calm, structured learning environment for children with Autism, ADHD, and developmental delays in Bangalore."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "programs": "Programs",
+    "therapies": "Therapies",
+    "admissions": "Admissions",
+    "gallery": "Gallery",
+    "resources": "Resources",
+    "hiring": "Hiring",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skipToContent": "Skip to main content",
+    "mainNav": "Main"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "getStarted": "Start Admission Process",
+    "contactUs": "Contact",
+    "applyNow": "Apply Now",
+    "bookAssessment": "Book Assessment",
+    "placeholderNotice": "Placeholder content — confirm with the organization before launch.",
+    "loading": "Loading…",
+    "required": "Required",
+    "submit": "Submit",
+    "submitting": "Submitting…",
+    "success": "Thank you. Your message was sent.",
+    "error": "Something went wrong. Please try again.",
+    "emailFallback": "If this continues, email us directly.",
+    "close": "Close",
+    "backToResources": "← Resources",
+    "details": "Details",
+    "address": "Address",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "visitingHours": "Visiting hours"
+  },
+  "sensory": {
+    "label": "Sensory-Safe Mode",
+    "on": "Sensory-Safe Mode is on",
+    "off": "Sensory-Safe Mode is off",
+    "toggle": "Toggle Sensory-Safe Mode",
+    "description": "Reduces motion and visual complexity, and increases text size and spacing."
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "kn": "ಕನ್ನಡ",
+    "hi": "हिन्दी"
+  },
+  "footer": {
+    "tagline": "Calm, structured support for neurodiverse children in Bangalore.",
+    "quickLinks": "Quick links",
+    "contactHeading": "Contact",
+    "rights": "All rights reserved.",
+    "addressPlaceholder": "[Full Bangalore Address]",
+    "phonePlaceholder": "[Phone]",
+    "emailPlaceholder": "[Email]",
+    "hoursPlaceholder": "[Visiting Hours]"
+  },
+  "home": {
+    "heroTitle": "Empowering Neurodiverse Children in Bangalore",
+    "heroSupport": "A calm, structured, and supportive learning environment for children with Autism, ADHD, and developmental delays.",
+    "ctaPrograms": "Programs",
+    "ctaAdmissions": "Admissions",
+    "ctaTherapies": "Therapies",
+    "ctaContact": "Contact",
+    "welcomeTitle": "Welcome",
+    "welcomeBody": "We provide early intervention, special education, therapy services, life-skills training, and structured, predictable support for families in Bangalore.",
+    "highlightsTitle": "What we offer",
+    "highlights": {
+      "classrooms": "Autism-friendly classrooms",
+      "therapists": "Certified therapists",
+      "iep": "Individualized Education Plans (IEPs)",
+      "therapies": "Speech, OT, ABA and sensory integration",
+      "parent": "Parent coaching and training",
+      "safe": "Safe and inclusive environment"
+    },
+    "programsTitle": "Featured programs",
+    "whyTitle": "Why families choose us",
+    "why": {
+      "calm": "Calm, predictable environment",
+      "local": "India-focused teaching materials",
+      "evidence": "Evidence-based therapies",
+      "partnership": "Parent–school partnership",
+      "progress": "Progress tracking and reviews"
+    },
+    "testimonialsTitle": "What parents say",
+    "testimonialNote": "Testimonials are anonymized placeholders until approved for publication.",
+    "viewGallery": "View gallery",
+    "aiImageNote": "Images are temporary AI-generated placeholders for design. They do not depict our real students or staff.",
+    "locationLabel": "Bangalore"
+  },
+  "about": {
+    "title": "About us",
+    "intro": "We are a Bangalore-based autism school and support centre focused on calm routines, visual learning, and family collaboration.",
+    "founderTitle": "Founder story",
+    "founderBody": "[Founder Name] founded this school to create a predictable, respectful space where neurodiverse children can learn and grow with their families.",
+    "missionTitle": "Mission",
+    "missionBody": "To provide structured, compassionate education and therapy that helps each child build communication, independence, and confidence.",
+    "visionTitle": "Vision",
+    "visionBody": "A Bangalore community where every neurodiverse child is understood, supported, and included.",
+    "approachTitle": "Our approach",
+    "approach": {
+      "routines": "Predictable routines",
+      "visual": "Visual learning",
+      "sensory": "Sensory-friendly classrooms",
+      "plans": "Individualized plans",
+      "family": "Family collaboration"
+    },
+    "teamTitle": "Our team",
+    "teamNote": "Qualifications and certifications will be confirmed before publication.",
+    "contextTitle": "Bangalore context",
+    "contextBody": "We serve local families with India-focused materials, bilingual-friendly communication, and practical parent pathways.",
+    "team": {
+      "specialEducators": "Special educators",
+      "speech": "Speech therapists",
+      "ot": "Occupational therapists",
+      "aba": "ABA therapists",
+      "shadow": "Shadow teachers",
+      "parentCoaches": "Parent coaches"
+    }
+  },
+  "programs": {
+    "title": "Programs",
+    "intro": "Clear program pathways for children aged 2–18. Ages and eligibility will be confirmed before launch.",
+    "early": {
+      "title": "Early Intervention",
+      "age": "Ages 2–6",
+      "body": "Communication, social skills, sensory development, pre-academic skills, and skill building."
+    },
+    "special": {
+      "title": "Special Education",
+      "age": "Ages 6–18",
+      "body": "Academic readiness, functional academics, daily living skills, social interaction, and emotional regulation."
+    },
+    "therapy": {
+      "title": "Therapy Programs",
+      "age": "As needed",
+      "body": "Speech therapy, occupational therapy, ABA therapy, and sensory integration."
+    },
+    "life": {
+      "title": "Life Skills & Vocational Training",
+      "age": "Older children and teens",
+      "body": "Cooking basics, money handling, grooming, workplace behaviour, and simple vocational tasks."
+    },
+    "parent": {
+      "title": "Parent Coaching",
+      "age": "For families",
+      "body": "Home-based strategies, communication techniques, positive support, and sensory support."
+    }
+  },
+  "therapies": {
+    "title": "Therapies",
+    "intro": "Our therapy philosophy is structured, predictable, and child-centred.",
+    "philosophyTitle": "Therapy philosophy",
+    "philosophyBody": "Sessions follow clear routines, use visual supports, and focus on skills that matter at home and school.",
+    "routineTitle": "Example session routine",
+    "routine": {
+      "warmup": "Warm-up sensory activity",
+      "tasks": "Structured tasks",
+      "communication": "Communication practice",
+      "movement": "Movement break",
+      "review": "Review and reinforcement"
+    },
+    "qualTitle": "Therapist qualifications",
+    "qualBody": "Therapist qualification claims are based on verified organization records before publication. [Qualifications to be confirmed]",
+    "progressTitle": "Progress and family updates",
+    "progress": {
+      "monthly": "Monthly reports",
+      "iep": "IEP reviews",
+      "meetings": "Parent meetings",
+      "goals": "Goal adjustments"
+    },
+    "storiesTitle": "Progress stories",
+    "storiesBody": "Progress stories are published only with documented consent and are anonymized when required."
+  },
+  "admissions": {
+    "title": "Admissions",
+    "intro": "A clear, step-by-step path from inquiry to enrollment.",
+    "eligibilityTitle": "Who we support",
+    "eligibilityNote": "Eligibility will be confirmed by the organization before launch.",
+    "eligibility": {
+      "autism": "Autism",
+      "adhd": "ADHD",
+      "delays": "Developmental delays",
+      "learning": "Learning difficulties",
+      "sensory": "Sensory challenges"
+    },
+    "ageRange": "Children aged 2–18 (to be confirmed)",
+    "workflowTitle": "Admission process",
+    "workflow": {
+      "inquiry": "Parent inquiry",
+      "visit": "School visit",
+      "assessment": "Child assessment",
+      "iep": "IEP planning",
+      "enroll": "Enrollment confirmation"
+    },
+    "docsTitle": "Documents we may request later",
+    "docsNote": "Please do not upload medical records on this website yet. Document requirements will be confirmed during consultation.",
+    "docs": {
+      "birth": "Birth certificate",
+      "medical": "Medical reports",
+      "school": "Previous school records",
+      "id": "Parent ID proof"
+    },
+    "feesTitle": "Fees",
+    "formTitle": "Start an admission inquiry",
+    "formSuccess": "Thank you. We received your admission inquiry and will contact you soon.",
+    "fields": {
+      "parentName": "Parent / guardian name",
+      "email": "Email",
+      "phone": "Phone",
+      "childName": "Child name",
+      "childDob": "Child date of birth",
+      "program": "Program of interest",
+      "contactMethod": "Preferred contact method",
+      "message": "Message",
+      "methodEmail": "Email",
+      "methodPhone": "Phone",
+      "methodWhatsapp": "WhatsApp"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Reach our Bangalore team. Details below are placeholders until confirmed.",
+    "mapNote": "Map will show the confirmed school location.",
+    "formTitle": "Send a message",
+    "formSuccess": "Thank you. Your message was sent.",
+    "whatsappCta": "Chat on WhatsApp",
+    "fields": {
+      "name": "Your name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Message"
+    }
+  },
+  "hiring": {
+    "title": "Join Our Mission — Become a Trainer at Our Autism School",
+    "intro": "We hire special educators, therapists, shadow teachers, and parent coaches who value calm, structured support.",
+    "whyTitle": "Why work with us",
+    "why": {
+      "meaningful": "Meaningful work",
+      "supportive": "Supportive environment",
+      "training": "Training provided",
+      "growth": "Growth opportunities"
+    },
+    "rolesTitle": "Roles we recruit",
+    "qualTitle": "Typical qualifications",
+    "qualNote": "Actual requirements are confirmed per job role.",
+    "skillsTitle": "Skills we value",
+    "formTitle": "Apply now",
+    "formSuccess": "Thank you. Your application was sent.",
+    "resumeHint": "PDF or DOC/DOCX, max 5 MB.",
+    "fields": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "role": "Role",
+      "education": "Education",
+      "experience": "Experience",
+      "certifications": "Certifications",
+      "availability": "Availability",
+      "resume": "Resume",
+      "message": "Additional information"
+    },
+    "qualList": {
+      "rci": "RCI certification/preference where applicable (to be confirmed)",
+      "autism": "Autism-specific training",
+      "experience": "Experience with neurodiverse children",
+      "communication": "Calm communication style"
+    },
+    "skills": {
+      "patience": "Patience",
+      "teaching": "Structured teaching",
+      "sensory": "Sensory-friendly communication",
+      "docs": "Documentation",
+      "parents": "Parent collaboration"
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "intro": "A look at our spaces and activities. Images of identifiable children are published only with documented consent.",
+    "categories": {
+      "therapy": "Therapy rooms",
+      "sensory": "Sensory gym",
+      "classroom": "Classroom activities",
+      "outdoor": "Outdoor play",
+      "workshops": "Parent workshops",
+      "family": "Teacher and family interaction"
+    },
+    "placeholderAlt": "Placeholder illustration for {category}",
+    "aiImageNote": "Temporary AI-generated placeholder image for design. Not a photo of our real school community."
+  },
+  "resources": {
+    "title": "Resources",
+    "intro": "Parent-oriented guides, blog posts, social stories, and visual schedules.",
+    "topicsTitle": "Topics",
+    "blogTitle": "Blog",
+    "blogIntro": "Short, plain-language articles for families.",
+    "socialTitle": "Social stories",
+    "socialIntro": "Step-by-step stories that help children prepare for school moments.",
+    "visualTitle": "Visual schedules",
+    "visualIntro": "Simple icon-and-text schedules that do not rely on colour alone.",
+    "topics": {
+      "autism": "Understanding Autism",
+      "sensory": "Sensory Needs",
+      "communication": "Communication Tips",
+      "parenting": "Parenting Strategies",
+      "readiness": "School Readiness",
+      "bangalore": "Bangalore Autism Support Resources"
+    },
+    "readArticle": "Read article",
+    "openStory": "Open story",
+    "viewSchedule": "View schedule"
+  },
+  "socialStory": {
+    "previous": "Previous",
+    "next": "Next",
+    "progress": "Step {current} of {total}",
+    "print": "Print-friendly view"
+  },
+  "visualSchedule": {
+    "title": "Day schedule",
+    "note": "Each step uses an icon and text so meaning does not depend on colour alone.",
+    "steps": {
+      "arrival": "Arrival",
+      "circle": "Circle Time",
+      "therapy": "Therapy",
+      "snack": "Snack",
+      "play": "Play",
+      "home": "Home"
+    }
+  },
+  "privacy": {
+    "title": "Privacy notice",
+    "intro": "We collect only the information needed to respond to inquiries and applications.",
+    "body": "Admission, contact, and hiring forms are emailed to our team. Do not send medical records through public forms or WhatsApp. Full privacy and retention wording will be approved before launch.",
+    "contact": "For privacy questions, email [Email]."
+  },
+  "validation": {
+    "required": "This field is required.",
+    "email": "Enter a valid email address.",
+    "phone": "Enter a valid phone number.",
+    "fileType": "File type is not allowed.",
+    "fileSize": "File is too large."
+  },
+  "testimonials": {
+    "1": {
+      "quote": "The routines helped our child feel safer. We always knew what to expect.",
+      "attribution": "Parent in Bangalore (placeholder)"
+    },
+    "2": {
+      "quote": "Therapists explained goals in plain language and partnered with us at home.",
+      "attribution": "Parent (placeholder — pending approval)"
+    }
+  }
+}

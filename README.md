@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Autism School Website (Bangalore)
 
-## Getting Started
+Calm, accessible Next.js website for an autism school/support centre in Bangalore.
 
-First, run the development server:
+## Stack
+
+- Next.js (App Router) + TypeScript + Tailwind CSS
+- `next-intl` (English, Kannada, Hindi)
+- React Hook Form + Zod
+- Resend email (forms → `sthaviro@gmail.com`)
+- Playwright + axe + Vitest
+
+## Getting started
 
 ```bash
+npm install
+cp .env.example .env.local
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) (redirects to `/en`).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Email
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Without `RESEND_API_KEY`, form submissions are logged to the server console (dev fallback) and still return success. With a Resend key, messages are emailed to `sthaviro@gmail.com`.
 
-## Learn More
+### Placeholders
 
-To learn more about Next.js, take a look at the following resources:
+Update [`src/lib/config/site.ts`](src/lib/config/site.ts) before launch:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- School name, founder name, address
+- Phone, WhatsApp, email, visiting hours
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Do not invent certifications, fees, or clinical claims.
 
-## Deploy on Vercel
+## Scripts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Command | Purpose |
+|---|---|
+| `npm run dev` | Local development |
+| `npm run build` | Production build |
+| `npm run test` | Unit tests (Vitest) |
+| `npm run test:e2e:install` | Install Playwright browser |
+| `npm run test:e2e` | End-to-end + accessibility checks |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Scope
+
+**Included:** Phase 1 public pages + Phase 2 (Gallery, Resources/blog, Visual Schedules, Social Stories, KN/HI scaffolding).
+
+**Not included:** Parent/therapist/HR portals, AI, OCR, medical document storage.
