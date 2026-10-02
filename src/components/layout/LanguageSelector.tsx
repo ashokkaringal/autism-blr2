@@ -15,7 +15,7 @@ export function LanguageSelector() {
       <span className="sr-only">{t("label")}</span>
       <select
         data-testid="language-selector"
-        className="min-h-11 rounded-lg border border-border bg-surface px-3 py-2"
+        className="min-h-10 rounded-lg border border-border bg-surface px-2 py-1.5 text-sm"
         value={locale}
         aria-label={t("label")}
         onChange={(e) => {

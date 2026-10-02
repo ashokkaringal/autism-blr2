@@ -16,27 +16,28 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-border/80 bg-surface/95 backdrop-blur">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
+      <div className="mx-auto grid max-w-7xl grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-x-3 px-3 py-2 sm:px-4 lg:px-6">
         <Link
           href="/"
-          className="font-serif text-lg font-bold text-teal-dark sm:text-xl"
+          className="shrink-0 font-serif text-base font-bold text-teal-dark sm:text-lg lg:max-w-[9.5rem] lg:truncate xl:max-w-none xl:text-xl"
+          title={siteConfig.name}
         >
           {siteConfig.name}
         </Link>
 
-        <nav aria-label={t("mainNav")} className="hidden lg:block">
-          <ul className="flex flex-wrap items-center gap-1">
+        <nav aria-label={t("mainNav")} className="hidden min-w-0 justify-self-stretch lg:block">
+          <ul className="flex flex-nowrap items-center justify-start gap-0.5 overflow-x-auto">
             {navItems.map((item) => {
               const active =
                 item.href === "/"
                   ? pathname === "/"
                   : pathname.startsWith(item.href);
               return (
-                <li key={item.href}>
+                <li key={item.href} className="shrink-0">
                   <Link
                     href={item.href}
                     className={cn(
-                      "inline-flex min-h-11 items-center rounded-lg px-3 py-2 text-sm font-semibold text-teal-dark hover:bg-mint/40",
+                      "inline-flex min-h-10 items-center whitespace-nowrap rounded-lg px-2 py-1.5 text-sm font-semibold text-teal-dark hover:bg-mint/40 xl:px-2.5",
                       active && "bg-mint/50",
                     )}
                     aria-current={active ? "page" : undefined}
@@ -49,11 +50,11 @@ export function Header() {
           </ul>
         </nav>
 
-        <div className="flex items-center gap-2">
+        <div className="flex shrink-0 items-center justify-end gap-1.5 justify-self-end">
           <div className="hidden sm:block">
             <LanguageSelector />
           </div>
-          <SensorySafeToggle />
+          <SensorySafeToggle compact />
           <button
             type="button"
             className="inline-flex min-h-11 min-w-11 items-center justify-center rounded-lg border border-border bg-surface lg:hidden"
